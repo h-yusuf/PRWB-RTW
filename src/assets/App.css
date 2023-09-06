@@ -1,0 +1,216 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+ul li {
+  list-style: none;
+  font-weight: bolder;
+}
+
+.flex {
+  display: flex;
+  gap: 16px;
+}
+
+.my-0 {
+  margin-top: 0px;
+  margin-bottom: 0px;
+}
+
+.App-link {
+  color: #61dafb;
+
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+.rounded-nav {
+  border-radius: 100%;
+  background-color: rgb(3, 122, 102);
+  padding: 2px;
+}
+
+.rounded-nav img {
+  width: 32px;
+  height: 32px;
+}
+
+.rounded-nav img:hover {
+  scale: 110%;
+}
+nav {
+  position: absolute;
+  align-items: center;
+  display: flex;
+  top: 12px;
+  justify-content: space-between;
+  width: 95%;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+p {
+  margin: 0;
+}
+
+.mx-24 {
+  margin-right: 24px;
+  margin-left: 24px;
+}
+.py-24{
+  padding-left: 24px;
+  padding-right: 24px;
+}
+
+nav ul {
+  display: flex;
+  margin: 0;
+  gap: 24px;
+}
+
+nav ul li {
+  list-style: none;
+  font-size: 16px;
+  font-weight: bolder;
+}
+
+a {
+  text-decoration: none;
+  color: white;
+}
+
+nav ul li a:hover {
+  color: red;
+  scale: 105%;
+}
+
+footer {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  background-color: #015d77;
+  display: flex;
+  padding-top: 12px;
+  padding-bottom: 12px;
+}
+footer div{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 100%;
+}
+footer h1 {
+  font-size: 16px;
+
+}
+ion-icon{
+  width: 24px;
+  height: 24px;
+}
+footer ul{
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  margin: 0px;
+  min-width: 360px;
+}
+footer li{
+  font-size: 16px;
+  display: flex;
+  gap: 2px;
+  align-items: center;
+}
+
+button {
+  padding: 8px;
+  padding-left: 12px;
+  padding-right: 12px;
+  border-radius: 8px;
+  margin: 16px;
+  background-color: rgb(35, 223, 98);
+}
+nav button{
+  margin: 0px;
+}
+marquee {
+  width: 50%;
+  font-size: 24px;
+  font-weight: bolder;
+}
+
+.testim {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  margin: 0px 32px;
+  overflow: auto;
+}
+.testim li{
+  font-style: italic;
+}
+
+  /* responsive style */
+
+  @media screen and (min-width:768px)  {
+    nav button{
+      display: none !important;
+    }
+
+  }
+  @media screen and (max-width:768px) {
+    nav .none{
+      display: none;
+    }
+    nav{
+      justify-content: space-between;
+    }
+    .testim h1{
+    display: grid;
+    justify-content: center;
+    text-align: center;
+    }
+    Footer div{
+      display: flex;
+      flex-direction: column-reverse;
+      gap: 8px;
+
+    }
+  }
+
+  .btn button{
+    min-width: 146px;
+  }
