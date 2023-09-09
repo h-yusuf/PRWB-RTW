@@ -63,7 +63,7 @@ const Banner = () => {
              initial='hidden'
              whileInView={'show'}
              viewport={{once: false, amount: 0.7}}
-            className="flex gap-8">
+            className="flex gap-8 items-center justify-center lg:justify-start">
               <FaYoutube/>
               <FaGithub/>
               <FaDribbble/>
