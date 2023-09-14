@@ -13,7 +13,7 @@ const About = () => {
     threshold: 0.5,
   });
   return (
-    <section className="section" id="about" ref={ref}>
+    <section className="section mt-4" id="about" ref={ref}>
       <div className="container mx-auto">
         <div className="flex flex-col gap-y-10 lg:flex-row lg:items-center lg:gap-x-20 h-screen">
 
@@ -24,7 +24,7 @@ const About = () => {
             initial="hidden"
             whileInView={"show"}
             viewport={{ once: false, amount: 0.3 }}
-            className="flex-1 bg-about bg-contain bg-no-repeat mix-blend-lighten bg-top h-[640px]"
+            className="flex-1 bg-about bg-contain bg-no-repeat mix-blend-lighten bg-top h-[640px] brightness-75 contrast-125 rounded-full"
           ></motion.div>
 
           {/* text */}

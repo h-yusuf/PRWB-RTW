@@ -8,13 +8,13 @@ const Nav = () => {
   return (
     <nav className='fixed justify-center w-full bottom-4 lg:bottom-8 overflow-hidden z-50'>
       <div className="container mx-auto">
-        <div className="w-full bg-black/20 h-[96px] backdrop-blur-2xl rounded-full max-w-[460px] mx-auto px-5 flex items-center justify-between text-2xl text-white/50">
+        <div className="w-full bg-black/20 h-[80px] backdrop-blur-2xl rounded-full max-w-[460px] mx-auto px-5 flex items-center justify-between text-2xl text-white/50">
           
           <Link to='banner' 
           activeClass='active'
           smooth={true}
           spy={true}
-          offset={-200}
+          offset={-100}
           className='cursor-pointer w-[60px] h-[60px] flex items-center justify-center'>
             <BiHomeAlt />
           </Link>

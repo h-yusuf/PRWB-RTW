@@ -11,32 +11,32 @@ const services = [
   {
     name: "Ui/UX Design",
     description:
-      "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Vero quisquam saepe aut maxime modi voluptatem similique optio necessitatibus provident sed?",
+      "Saya adalah seorang Desainer di bidang Desain Antarmuka Pengguna (UI) dan Pengalaman Pengguna (UX) dengan pengalaman yang luas dalam menciptakan pengalaman digital yang menarik dan intuitif. Skill UI/UX saya didukung oleh pengetahuan yang mendalam tentang perilaku pengguna, desain responsif, dan prinsip desain yang solid.",
     link: "Learn more",
   },
   {
     name: "Development Website",
     description:
-      "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Vero quisquam saepe aut maxime modi voluptatem similique optio necessitatibus provident sed?",
+      "Saya adalah seorang pengembang web dengan pengalaman yang luas dalam menciptakan situs web fungsional dan responsif. Dengan pengetahuan teknis yang mendalam, saya berkomitmen untuk menghasilkan kode berkualitas tinggi dan pengalaman online yang baik bagi pengguna.",
     link: "Learn more",
   },
   {
     name: "Digital Marketing",
     description:
-      "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Vero quisquam saepe aut maxime modi voluptatem similique optio necessitatibus provident sed?",
+      "Saya memiliki kemampuan untuk merancang strategi pemasaran digital yang komprehensif, termasuk perencanaan konten, media sosial, iklan online, dan email marketing.",
     link: "Learn more",
   },
   {
-    name: "Product Branding",
+    name: "Creator Video",
     description:
-      "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Vero quisquam saepe aut maxime modi voluptatem similique optio necessitatibus provident sed?",
+      "Saya memiliki kemampuan untuk merancang, mengarahkan, dan mengedit video dengan keahlian yang tinggi. Saya dapat menciptakan konten yang memukau, mulai dari video promosi merek hingga vlog pribadi yang menghibur.",
     link: "Learn more",
   },
 ];
 
 const Services = () => {
   return (
-    <section className="section" id="services">
+    <section className="section mb-8 mt-4" id="services">
       <div className="container mx-auto">
         <div className="flex flex-col lg:flex-row">
           <motion.div 
@@ -64,12 +64,12 @@ const Services = () => {
               {services.map((service, index) =>{
                 const {name, description,link } = service;
                 return (
-                  <div className="border-b border-white/20 h-[170px] flex mb-4" key={index}>
+                  <div className="border-b border-white/20 min-h-[170px] flex mb-4" key={index}>
                     <div className="max-w-[476px]">
                       <h4 className="text-[20px] tracking-wide font-primary font-semibold mb-6">{name}</h4>
-                      <p className="font-secondary leading-tight">{description}</p>
+                      <p className="font-secondary leading-tight mb-6 font text-justify">{description}</p>
                     </div>
-                    <div className="flex flex-col flex-1 items-end py-4">
+                    <div className="flex flex-col flex-1 items-end justify-center py-4">
                       <a className="btn w-8 h-8 mb-[42px] flex justify-center items-center" href="#">
                         <BsArrowUpRight/>
                       </a>

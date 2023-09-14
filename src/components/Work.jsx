@@ -46,7 +46,7 @@ const Work = () => {
                 <span className="text-gradient">UI/UX Design</span>
               </div>
               <div className="absolute -bottom-full left-12 group-hover:bottom-14 transition-all duration-700 z-50">
-                <span className="text-white">Project Title</span>
+                <span className="text-white">Katalog Allodock app</span>
               </div>
             </div>
           </motion.div>
@@ -68,7 +68,7 @@ const Work = () => {
                 <span className="text-gradient">UI/UX Design</span>
               </div>
               <div className="absolute -bottom-full left-12 group-hover:bottom-14 transition-all duration-700 z-50">
-                <span className="text-white">Project Title</span>
+                <span className="text-white">Personal Portfolio</span>
               </div>
             </div>
             {/* image */}
@@ -80,10 +80,10 @@ const Work = () => {
                 alt=""
               />
               <div className="absolute -bottom-full left-12 group-hover:bottom-24 transition-all duration-500 z-50">
-                <span className="text-gradient">UI/UX Design</span>
+                <span className="text-gradient">UI/UX Design and Web</span>
               </div>
               <div className="absolute -bottom-full left-12 group-hover:bottom-14 transition-all duration-700 z-50">
-                <span className="text-white">Project Title</span>
+                <span className="text-white">Moneytrack Katalog</span>
               </div>
             </div>
           </motion.div>

@@ -1,5 +1,5 @@
 import React from 'react';
-import Image from '../assets/avatar.svg';
+import Image from '../assets/avatar.png';
 
 import { FaGithub, FaYoutube, FaDribbble } from 'react-icons/fa'
 
@@ -11,7 +11,7 @@ import {fadeIn} from '../variants'
 
 const Banner = () => {
   return (
-    <section className='section' id='banner'>
+    <section className='section lg:pt-0' id='banner'>
       <div className="container mx-auto">
         <div className="flex flex-col gap-y-8 lg:flex-row">
           <div className="flex-1 text-center font-secondary lg:text-left lg:items-center">
@@ -75,7 +75,7 @@ const Banner = () => {
              initial='hidden'
              whileInView={'show'}
              viewport={{once: false, amount: 0.7}}
-            className='flex-1 hidden lg:flex msx-w-[320px] lg:max-w-[452px]'>
+            className='flex-1 hidden lg:flex msx-w-[320px] lg:max-w-[452px] -mt-5'>
               <img src={Image} alt="" />
             </motion.div>
         </div>
