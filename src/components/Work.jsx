@@ -32,7 +32,9 @@ const Work = () => {
                 confident that the quality of my work will continue to grow and
                 satisfy my clients in the future.
               </p>
+              <a href="Project.jsx">
               <button className="btn btn-sm">View all project</button>
+              </a>
             </div>
             {/* image */}
             <div className="group relative overflow-hidden border-2 border-white/50 rounded-xl">
