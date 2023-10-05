@@ -1,5 +1,5 @@
 import React from "react";
-
+import {Link} from 'react-router-dom'
 import img1 from "../assets/portfolio-img1.png";
 import img2 from "../assets/portfolio-img2.png";
 import img3 from "../assets/portfolio-img3.png";
@@ -32,9 +32,12 @@ const Work = () => {
                 confident that the quality of my work will continue to grow and
                 satisfy my clients in the future.
               </p>
-              <a href="Project.jsx">
+              <Link
+              to='/MyProject'
+              >
               <button className="btn btn-sm">View all project</button>
-              </a>
+              </Link>
+              
             </div>
             {/* image */}
             <div className="group relative overflow-hidden border-2 border-white/50 rounded-xl">
