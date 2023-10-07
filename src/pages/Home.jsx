@@ -1,12 +1,12 @@
 import React from 'react';
 // components
-import Banner from '../components/Banner';
-import Header from '../components/Header';
-import Nav from '../components/Nav';
-import About from '../components/About';
-import Services from '../components/Services';
-import Work from '../components/Work';
-import Contact from '../components/Contact';
+import Banner from '../components/home/Banner';
+import Header from '../components/home/Header';
+import Nav from '../components/home/Nav';
+import About from '../components/home/About';
+import Services from '../components/home/Services';
+import Work from '../components/home/Work';
+import Contact from '../components/home/Contact';
 
 const Home = () => {
   return (

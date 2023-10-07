@@ -1,14 +1,16 @@
 import React from "react";
-import {Link} from 'react-router-dom'
-import img1 from "../assets/portfolio-img1.png";
-import img2 from "../assets/portfolio-img2.png";
-import img3 from "../assets/portfolio-img3.png";
+// import {Link} from 'react-router-dom'
+import img1 from "../../assets/portfolio-img1.png";
+import img2 from "../../assets/portfolio-img2.png";
+import img3 from "../../assets/portfolio-img3.png";
+import {useNavigate} from 'react-router-dom'
 
 import { motion } from "framer-motion";
 
-import { fadeIn } from "../variants";
+import {fadeIn} from '../../variants'
 
 const Work = () => {
+  const navigate = useNavigate();
   return (
     <section className="section" id="work">
       <div className="container mx-auto">
@@ -32,12 +34,7 @@ const Work = () => {
                 confident that the quality of my work will continue to grow and
                 satisfy my clients in the future.
               </p>
-              <Link
-              to='/MyProject'
-              >
-              <button className="btn btn-sm">View all project</button>
-              </Link>
-              
+              <button className="btn btn-sm" onClick={() => navigate('/MyProject')}>View all project</button>
             </div>
             {/* image */}
             <div className="group relative overflow-hidden border-2 border-white/50 rounded-xl">
@@ -60,8 +57,10 @@ const Work = () => {
           initial='hidden'
           whileInView={'show'}
           viewport={{once: false, amount: 0.1}}
-          className="flex-1 gap-10 mt-6 flex flex-col">
+          className="flex-1 gap-12 mt-2 flex flex-col">
+
             {/* image */}
+
             <div className="group relative overflow-hidden border-2 border-white/50 rounded-xl">
               <div className="group-hover:bg-black/70 w-full h-full absolute z-40 transition-all duration-300"></div>
               <img
@@ -76,7 +75,9 @@ const Work = () => {
                 <span className="text-white">Personal Portfolio</span>
               </div>
             </div>
+            
             {/* image */}
+
             <div className="group relative overflow-hidden border-2 border-white/50 rounded-xl">
               <div className="group-hover:bg-black/70 w-full h-full absolute z-40 transition-all duration-300"></div>
               <img

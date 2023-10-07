@@ -1,12 +1,8 @@
 import React from "react";
-
 import CountUp from "react-countup";
-
 import { InView, useInView } from "react-intersection-observer";
-
 import { motion } from "framer-motion";
-
-import { fadeIn } from "../variants";
+import { fadeIn } from "../../variants";
 
 const About = () => {
   const [ref, inView] = useInView({
@@ -24,7 +20,7 @@ const About = () => {
             initial="hidden"
             whileInView={"show"}
             viewport={{ once: false, amount: 0.3 }}
-            className="flex-1 bg-about bg-contain bg-no-repeat mix-blend-lighten bg-top h-[640px] brightness-75 contrast-125 rounded-full"
+            className="flex-1 bg-about bg-contain bg-no-repeat mix-blend-lighten bg-top h-[640px]  brightness-75 contrast-125 rounded-full"
           ></motion.div>
 
           {/* text */}
@@ -38,7 +34,7 @@ const About = () => {
           >
             <h2 className="h2 text-accent">About me.</h2>
             <h3 className="h3 mb-4">
-              I'm a freelance Frond-end Developer with over 2 years of
+              I'm a freelance Frond-end Developer with over 1 years of
               experience.
             </h3>
             <p className="mb-6">
@@ -52,7 +48,7 @@ const About = () => {
             <div className="flex gap-6 lg:gap-x-10 mb-12">
               <div className="">
                 <div className="text-[40px] font-tertiary text-gradient mb-2 py-2">
-                  {inView ? <CountUp start={0} end={13} duration={3} /> : null}
+                  {inView ? <CountUp start={-2} end={1} duration={3} /> : null}+
                 </div>
                 <div className="font-primary text-sm tracking-[2px]">
                   Years of <br />
@@ -61,7 +57,7 @@ const About = () => {
               </div>
               <div className="">
                 <div className="text-[40px] font-tertiary text-gradient mb-2 py-2">
-                  {inView ? <CountUp start={0} end={20} duration={3} /> : null}k+
+                  {inView ? <CountUp start={0} end={20} duration={3} /> : null}+
                 </div>
                 <div className="font-primary text-sm tracking-[2px]">
                   Project<br />
@@ -70,7 +66,7 @@ const About = () => {
               </div>
               <div className="">
                 <div className="text-[40px] font-tertiary text-gradient mb-2 py-2">
-                  {inView ? <CountUp start={0} end={13} duration={3} /> : null}k+
+                  {inView ? <CountUp start={0} end={13} duration={3} /> : null}k-
                 </div>
                 <div className="font-primary text-sm tracking-[2px]">
                   Satidfied <br />

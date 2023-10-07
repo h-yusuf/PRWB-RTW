@@ -1,13 +1,9 @@
 import React from 'react';
-import Image from '../assets/avatar.png';
-
-import { FaGithub, FaYoutube, FaDribbble } from 'react-icons/fa'
-
+import Image from '../../assets/avatar.png';
+import { FaGithub, FaYoutube, FaLinkedin } from 'react-icons/fa'
 import { TypeAnimation } from 'react-type-animation';
-
 import { motion } from 'framer-motion';
-
-import {fadeIn} from '../variants'
+import {fadeIn} from '../../variants'
 
 const Banner = () => {
   return (
@@ -64,9 +60,15 @@ const Banner = () => {
              whileInView={'show'}
              viewport={{once: false, amount: 0.7}}
             className="flex gap-8 items-center justify-center lg:justify-start">
-              <FaYoutube/>
-              <FaGithub/>
-              <FaDribbble/>
+              <a href="">
+              <FaYoutube className='w-6 h-6'/>
+              </a>
+              <a href="https://github.com/h-yusuf">
+              <FaGithub className='w-6 h-6'/>
+              </a>
+              <a href="https://www.linkedin.com/in/yusuf212/">
+              <FaLinkedin className='w-6 h-6'/>
+              </a>
             </motion.div>
           </div>
             {/* image */}
