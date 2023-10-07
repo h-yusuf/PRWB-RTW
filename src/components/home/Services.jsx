@@ -51,7 +51,9 @@ const Services = () => {
               I'm a freelance Frond-end Developer with over 2 years of
               experience.
             </h3>
-            <button className="btn btn-lg">See my work</button>
+            <a href="https://pf-yusuf.netlify.app/Other">
+            <button className="btn btn-lg">My Experience</button>
+            </a>
           </motion.div>
 
           {/* service list */}

@@ -20,7 +20,7 @@ const Contact = () => {
                 Get in Touch
               </h4>
               <h2 className="leading-none mb-12 lg:text-[90px] text-[45px]">
-                Let's Work <br /> togheder!
+                Let's Work <br /> Togheder!
               </h2>
             </div>
           </motion.div>

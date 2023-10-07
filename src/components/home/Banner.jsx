@@ -51,7 +51,9 @@ const Banner = () => {
              whileInView={'show'}
              viewport={{once: false, amount: 0.7}}
             className="flex max-w-max gap-6 items-center mb-12 mx-auto lg:mx-0">
+              <a href="https://pf-yusuf.netlify.app/contact">
             <button className="btn btn-lg">Contact me</button>
+              </a>
             <a className='text-gradient btn-link' href="#">My Portofolio</a>
             </motion.div>
             <motion.div 

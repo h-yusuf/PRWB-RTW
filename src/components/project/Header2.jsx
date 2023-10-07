@@ -1,7 +1,9 @@
 import React from 'react';
 import Logo from '../../assets/logo.svg'
+import {useNavigate} from 'react-router-dom'
 
 const Header = () => {
+    const navigate = useNavigate();
   return (
     <header className='py-8 '>
       <div className="container mx-auto">
@@ -11,7 +13,7 @@ const Header = () => {
             My Project
           </a>
           <a href="">
-            <button className="btn btn-sm">Work With me</button>
+            <button className="btn btn-sm" onClick={()=> navigate('/')}>Home</button>
           </a>
         </div>
 

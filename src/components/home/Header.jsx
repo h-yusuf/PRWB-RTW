@@ -9,8 +9,8 @@ const Header = () => {
           <a href="#">
             <img className='h-[70px]' src={Logo} alt="" />
           </a>
-          <a href="">
-            <button className="btn btn-sm">Work With me</button>
+          <a href="https://pf-yusuf.netlify.app">
+            <button className="btn btn-sm">Other Site</button>
           </a>
         </div>
 
