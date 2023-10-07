@@ -12,7 +12,7 @@ import { fadeIn } from "../../variants";
 const Sertif = () => {
   return (
     <div className="container mx-auto grid gap-12 mb-24">
-      <div className="flex-1 gap-8 mt-2 flex flex-row">
+      <div className="flex-1 gap-8 mt-2 flex flex-col lg:flex-row">
         {/* image */}
 
         <div class="max-w-sm bg-gray-800 bg-opacity-25 border border-gray-700 rounded-lg shadow ">
@@ -153,7 +153,7 @@ const Sertif = () => {
 
         {/* image */}
       </div>
-      <div className="flex-1 gap-8 mt-2 flex flex-row">
+      <div className="flex-1 gap-8 mt-2 flex flex-col lg:flex-row">
         {/* image */}
 
         <div class="max-w-sm bg-gray-800 bg-opacity-25 border border-gray-700 rounded-lg shadow ">
@@ -294,7 +294,7 @@ const Sertif = () => {
 
         {/* image */}
       </div>
-      <div className="flex-1 gap-8 mt-2 flex flex-row">
+      <div className="flex-1 gap-8 mt-2 flex flex-col lg:flex-row">
         {/* image */}
 
         <div class="max-w-sm bg-gray-800 bg-opacity-25 border border-gray-700 rounded-lg shadow ">
