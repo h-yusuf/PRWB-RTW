@@ -10,6 +10,10 @@ import { motion } from "framer-motion";
 import { fadeIn } from "../../variants";
 
 const Sertif = () => {
+  const WebnonData = () => {
+    return 
+    alert('Belum Ada versi website nya')
+  }
   return (
     <div className="container mx-auto grid gap-12 mb-24">
       <div className="flex-1 gap-8 mt-2 flex flex-col lg:flex-row">
@@ -44,14 +48,14 @@ const Sertif = () => {
             </div>
             <div className="w-full flex gap-2">
               <a
-                href="#"
+                href="https://www.figma.com/proto/Hx8ENDaC475TTltvYBgZY1/PTTDSG?type=design&node-id=1-2&t=HQr7gmksjyZq4maZ-0&scaling=contain&page-id=0%3A1&starting-point-node-id=1%3A2&show-proto-sidebar=1"
                 class="inline-flex items-center px-3 py-2 text-sm  gap-2 font-medium text-center text-white bg-blue-700 rounded-md hover:bg-blue-800 focus:ring-4 focus:outline-none focus:ring-blue-300 dark:bg-blue-600 dark:hover:bg-blue-700 dark:focus:ring-blue-800"
               >
                 Figma
                 <FaFigma />
               </a>
               <a
-                href="#"
+                href={WebnonData()} 
                 class="inline-flex items-center px-3 py-2 text-sm  gap-2 font-medium text-center text-white bg-blue-700 rounded-md hover:bg-blue-800 focus:ring-4 focus:outline-none focus:ring-blue-300 dark:bg-blue-600 dark:hover:bg-blue-700 dark:focus:ring-blue-800"
               >
                 Website
@@ -89,14 +93,14 @@ const Sertif = () => {
             </p>
             <div className="w-full flex gap-2">
               <a
-                href="#"
+                href="https://www.figma.com/proto/REcQQ9kKQKrqN55zH2tfzl/Landing-page?type=design&node-id=1-2&t=HQr7gmksjyZq4maZ-0&scaling=min-zoom&page-id=0%3A1&starting-point-node-id=1%3A2"
                 class="inline-flex items-center px-3 py-2 text-sm  gap-2 font-medium text-center text-white bg-blue-700 rounded-md hover:bg-blue-800 focus:ring-4 focus:outline-none focus:ring-blue-300 dark:bg-blue-600 dark:hover:bg-blue-700 dark:focus:ring-blue-800"
               >
                 Figma
                 <FaFigma />
               </a>
               <a
-                href="#"
+                href="https://katalog-moneytrack-web.vercel.app/"
                 class="inline-flex items-center px-3 py-2 text-sm  gap-2 font-medium text-center text-white bg-blue-700 rounded-md hover:bg-blue-800 focus:ring-4 focus:outline-none focus:ring-blue-300 dark:bg-blue-600 dark:hover:bg-blue-700 dark:focus:ring-blue-800"
               >
                 Website
@@ -134,14 +138,14 @@ const Sertif = () => {
             </p>
             <div className="w-full flex gap-2">
               <a
-                href="#"
+                href="https://www.figma.com/proto/joBeRjXVggbfH00dR3sNE8/Katalog?type=design&node-id=4-8&t=HQr7gmksjyZq4maZ-0&scaling=min-zoom&page-id=0%3A1&starting-point-node-id=4%3A8"
                 class="inline-flex items-center px-3 py-2 text-sm  gap-2 font-medium text-center text-white bg-blue-700 rounded-md hover:bg-blue-800 focus:ring-4 focus:outline-none focus:ring-blue-300 dark:bg-blue-600 dark:hover:bg-blue-700 dark:focus:ring-blue-800"
               >
                 Figma
                 <FaFigma />
               </a>
               <a
-                href="#"
+                href="https://orchid-department-594606.framer.app/"
                 class="inline-flex items-center px-3 py-2 text-sm  gap-2 font-medium text-center text-white bg-blue-700 rounded-md hover:bg-blue-800 focus:ring-4 focus:outline-none focus:ring-blue-300 dark:bg-blue-600 dark:hover:bg-blue-700 dark:focus:ring-blue-800"
               >
                 Website
@@ -440,3 +444,4 @@ const Sertif = () => {
 };
 
 export default Sertif;
+
