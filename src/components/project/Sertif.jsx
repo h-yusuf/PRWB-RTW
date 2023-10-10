@@ -1,8 +1,12 @@
-import img1 from "../../assets/portfolio-img1.png";
 import React from "react";
 import { FaFigma, FaGlobe } from "react-icons/fa";
+import img1 from "../../assets/portfolio-img1.png";
 import img2 from "../../assets/portfolio-img2.png";
 import img3 from "../../assets/portfolio-img3.png";
+import img4 from "../../assets/portfolio-img4.png";
+import img5 from "../../assets/portfolio-img5.png";
+import img6 from "../../assets/portfolio-img6.png";
+
 import { useNavigate } from "react-router-dom";
 
 import { motion } from "framer-motion";
@@ -11,9 +15,8 @@ import { fadeIn } from "../../variants";
 
 const Sertif = () => {
   const WebnonData = () => {
-    return 
-    alert('Belum Ada versi website nya')
-  }
+    return  alert('Belum Ada versi website nya')
+  };
   return (
     <div className="container mx-auto grid gap-12 mb-24">
       <div className="flex-1 gap-8 mt-2 flex flex-col lg:flex-row">
@@ -55,7 +58,7 @@ const Sertif = () => {
                 <FaFigma />
               </a>
               <a
-                href={WebnonData()} 
+                onClick={() => WebnonData()} 
                 class="inline-flex items-center px-3 py-2 text-sm  gap-2 font-medium text-center text-white bg-blue-700 rounded-md hover:bg-blue-800 focus:ring-4 focus:outline-none focus:ring-blue-300 dark:bg-blue-600 dark:hover:bg-blue-700 dark:focus:ring-blue-800"
               >
                 Website
@@ -166,7 +169,7 @@ const Sertif = () => {
               <div className="group-hover:bg-black/70 w-full h-full absolute z-40 transition-all duration-300"></div>
               <img
                 className="group-hover:scale-125 transition-all duration-500"
-                src={img2}
+                src={img4}
                 alt=""
               />
               <div className="absolute -bottom-full left-12 group-hover:bottom-24 transition-all duration-500 z-50">
@@ -189,14 +192,14 @@ const Sertif = () => {
             </div>
             <div className="w-full flex gap-2">
               <a
-                href="#"
+                href="https://www.figma.com/proto/mHCoojNhVdQPiSPUlN6dAX/wonderfull-jogjakarta?type=design&node-id=118-30&t=yvCiRLCVwXqQq5Du-0&scaling=scale-down-width&page-id=0%3A1&starting-point-node-id=118%3A30"
                 class="inline-flex items-center px-3 py-2 text-sm  gap-2 font-medium text-center text-white bg-blue-700 rounded-md hover:bg-blue-800 focus:ring-4 focus:outline-none focus:ring-blue-300 dark:bg-blue-600 dark:hover:bg-blue-700 dark:focus:ring-blue-800"
               >
                 Figma
                 <FaFigma />
               </a>
               <a
-                href="#"
+                href="https://wonderfull-jogjakarta.vercel.app/"
                 class="inline-flex items-center px-3 py-2 text-sm  gap-2 font-medium text-center text-white bg-blue-700 rounded-md hover:bg-blue-800 focus:ring-4 focus:outline-none focus:ring-blue-300 dark:bg-blue-600 dark:hover:bg-blue-700 dark:focus:ring-blue-800"
               >
                 Website
@@ -211,7 +214,7 @@ const Sertif = () => {
               <div className="group-hover:bg-black/70 w-full h-full absolute z-40 transition-all duration-300"></div>
               <img
                 className="group-hover:scale-125 transition-all duration-500"
-                src={img3}
+                src={img5}
                 alt=""
               />
               <div className="absolute -bottom-full left-12 group-hover:bottom-24 transition-all duration-500 z-50">
@@ -234,7 +237,7 @@ const Sertif = () => {
             </p>
             <div className="w-full flex gap-2">
               <a
-                href="#"
+                href="https://www.figma.com/proto/EEt5OdRutjAYQkyms3gnez/UIUX-KAMPUS?type=design&node-id=1-2&t=yvCiRLCVwXqQq5Du-0&scaling=scale-down-width&page-id=0%3A1"
                 class="inline-flex items-center px-3 py-2 text-sm  gap-2 font-medium text-center text-white bg-blue-700 rounded-md hover:bg-blue-800 focus:ring-4 focus:outline-none focus:ring-blue-300 dark:bg-blue-600 dark:hover:bg-blue-700 dark:focus:ring-blue-800"
               >
                 Figma
@@ -256,7 +259,7 @@ const Sertif = () => {
               <div className="group-hover:bg-black/70 w-full h-full absolute z-40 transition-all duration-300"></div>
               <img
                 className="group-hover:scale-125 transition-all duration-500"
-                src={img1}
+                src={img6}
                 alt=""
               />
               <div className="absolute -bottom-full left-12 group-hover:bottom-24 transition-all duration-500 z-50">
@@ -279,14 +282,14 @@ const Sertif = () => {
             </p>
             <div className="w-full flex gap-2">
               <a
-                href="#"
+                href="https://www.figma.com/proto/YfitXb0uDbBx4IXgNEa6kr/Web-UTS?type=design&node-id=474-930&t=5dgzA7fJIWitSdBL-0&scaling=scale-down&page-id=0%3A1&starting-point-node-id=163%3A215&show-proto-sidebar=1"
                 class="inline-flex items-center px-3 py-2 text-sm  gap-2 font-medium text-center text-white bg-blue-700 rounded-md hover:bg-blue-800 focus:ring-4 focus:outline-none focus:ring-blue-300 dark:bg-blue-600 dark:hover:bg-blue-700 dark:focus:ring-blue-800"
               >
                 Figma
                 <FaFigma />
               </a>
               <a
-                href="#"
+                href="https://adajasabeta.netlify.app/"
                 class="inline-flex items-center px-3 py-2 text-sm  gap-2 font-medium text-center text-white bg-blue-700 rounded-md hover:bg-blue-800 focus:ring-4 focus:outline-none focus:ring-blue-300 dark:bg-blue-600 dark:hover:bg-blue-700 dark:focus:ring-blue-800"
               >
                 Website
@@ -439,6 +442,7 @@ const Sertif = () => {
 
         {/* image */}
       </div>
+
     </div>
   );
 };

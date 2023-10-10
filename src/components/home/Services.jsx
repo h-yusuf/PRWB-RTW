@@ -86,7 +86,7 @@ const Services = () => {
                         className="btn w-8 h-8 hidden lg:flex justify-center items-center"
                         href="#"
                       >
-                        <BsArrowUpRight />
+                        <BsArrowUpRight className="stroke-1"/>
                       </a>
                       <a className="text-gradient text-sm" href="">
                         {link}

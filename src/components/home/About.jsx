@@ -1,5 +1,7 @@
 import React from "react";
 import CountUp from "react-countup";
+import {FaReact,FaBootstrap,FaFigma} from 'react-icons/fa'
+import { BiLogoTailwindCss} from "react-icons/bi";
 import { InView, useInView } from "react-intersection-observer";
 import { motion } from "framer-motion";
 import { fadeIn } from "../../variants";
@@ -75,10 +77,13 @@ const About = () => {
               </div>
             </div>
             <div className="flex gap-8 items-center">
-              <button className="btn btn-lg">Contact me</button>
-              <a className="text-gradient btn-link" href="#">
-                My Portofolio
-              </a>
+              {/* <a className="text-gradient btn-link" href="#">
+                My Skill :
+              </a> */}
+              <FaReact className='w-10 h-10 fill-blue-500 hover:fill-blue-400'/>
+              <FaBootstrap className='w-10 h-10 fill-purple-700 hover:fill-purple-600'/>
+              <FaFigma className='w-10 h-10 fill-pink-500 hover:fill-pink-400'/>
+              <BiLogoTailwindCss className='w-10 h-10 fill-blue-600 hover:fill-blue-500 '/>
             </div>
           </motion.div>
         </div>

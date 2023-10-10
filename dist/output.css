@@ -807,6 +807,10 @@ body {
   display: none;
 }
 
+.h-10 {
+  height: 2.5rem;
+}
+
 .h-6 {
   height: 1.5rem;
 }
@@ -843,8 +847,16 @@ body {
   height: 100vh;
 }
 
+.h-2 {
+  height: 0.5rem;
+}
+
 .min-h-\[170px\] {
   min-height: 170px;
+}
+
+.w-10 {
+  width: 2.5rem;
 }
 
 .w-6 {
@@ -861,6 +873,10 @@ body {
 
 .w-full {
   width: 100%;
+}
+
+.w-2 {
+  width: 0.5rem;
 }
 
 .max-w-\[455px\] {
@@ -1032,6 +1048,11 @@ body {
   background-color: transparent;
 }
 
+.bg-blue-600 {
+  --tw-bg-opacity: 1;
+  background-color: rgb(37 99 235 / var(--tw-bg-opacity));
+}
+
 .bg-opacity-25 {
   --tw-bg-opacity: 0.25;
 }
@@ -1058,6 +1079,82 @@ body {
 
 .bg-no-repeat {
   background-repeat: no-repeat;
+}
+
+.fill-blue-600 {
+  fill: #2563eb;
+}
+
+.fill-blue-300 {
+  fill: #93c5fd;
+}
+
+.fill-green-300 {
+  fill: #86efac;
+}
+
+.fill-green-600 {
+  fill: #16a34a;
+}
+
+.fill-blue-900 {
+  fill: #1e3a8a;
+}
+
+.fill-blue-500 {
+  fill: #3b82f6;
+}
+
+.fill-blue-400 {
+  fill: #60a5fa;
+}
+
+.fill-purple-300 {
+  fill: #d8b4fe;
+}
+
+.fill-purple-600 {
+  fill: #9333ea;
+}
+
+.fill-purple-900 {
+  fill: #581c87;
+}
+
+.fill-purple-700 {
+  fill: #7e22ce;
+}
+
+.fill-green-700 {
+  fill: #15803d;
+}
+
+.fill-green-400 {
+  fill: #4ade80;
+}
+
+.fill-blue-800 {
+  fill: #1e40af;
+}
+
+.fill-orange-700 {
+  fill: #c2410c;
+}
+
+.fill-pink-700 {
+  fill: #be185d;
+}
+
+.fill-pink-500 {
+  fill: #ec4899;
+}
+
+.stroke-2 {
+  stroke-width: 2;
+}
+
+.stroke-1 {
+  stroke-width: 1;
 }
 
 .p-5 {
@@ -1379,6 +1476,42 @@ body {
 .hover\:bg-blue-800:hover {
   --tw-bg-opacity: 1;
   background-color: rgb(30 64 175 / var(--tw-bg-opacity));
+}
+
+.hover\:fill-blue-500:hover {
+  fill: #3b82f6;
+}
+
+.hover\:fill-blue-300:hover {
+  fill: #93c5fd;
+}
+
+.hover\:fill-blue-400:hover {
+  fill: #60a5fa;
+}
+
+.hover\:fill-purple-700:hover {
+  fill: #7e22ce;
+}
+
+.hover\:fill-purple-600:hover {
+  fill: #9333ea;
+}
+
+.hover\:fill-blue-600:hover {
+  fill: #2563eb;
+}
+
+.hover\:fill-orange-600:hover {
+  fill: #ea580c;
+}
+
+.hover\:fill-pink-600:hover {
+  fill: #db2777;
+}
+
+.hover\:fill-pink-400:hover {
+  fill: #f472b6;
 }
 
 .focus\:border-accent:focus {
