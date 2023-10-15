@@ -8,7 +8,9 @@ import img5 from "../../assets/portfolio-img5.png";
 import img6 from "../../assets/portfolio-img6.png";
 import img7 from "../../assets/portfolio-img7.png";
 import img8 from "../../assets/portfolio-img8.png";
-// import img9 from "../../assets/portfolio-img9.png";
+import img9 from "../../assets/portfolio-img9.png";
+import img10 from "../../assets/portfolio-img10.png";
+import img11 from "../../assets/portfolio-img11.png";
 
 import { useNavigate } from "react-router-dom";
 
@@ -444,26 +446,25 @@ const Sertif = () => {
               <div className="group-hover:bg-black/70 w-full h-full absolute z-40 transition-all duration-300"></div>
               <img
                 className="group-hover:scale-125 transition-all duration-500"
-                src={img1}
+                src={img9}
                 alt=""
               />
               <div className="absolute -bottom-full left-12 group-hover:bottom-24 transition-all duration-500 z-50">
-                <span className="text-gradient">UI/UX Design and Web</span>
+                <span className="text-gradient">UI/UX Design</span>
               </div>
               <div className="absolute -bottom-full left-12 group-hover:bottom-14 transition-all duration-700 z-50">
-                <span className="text-white">Katalog Allodock app</span>
+                <span className="text-white">AdaJasa App</span>
               </div>
             </div>
           </a>
           <div class="p-5">
             <a href="#">
               <h5 class="mb-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-white">
-                Allodock Catalog Wireframe And Typography
+              AdaJasa app Provides a wide range of services
               </h5>
             </a>
             <p class="mb-3 font-normal text-gray-700 dark:text-gray-400">
-              typography of an allodock application design in the form of
-              wireframes, color grading, and user experience flow
+            AdaJasa App Aims to gather service providers as well as bring together service providers and service seekers.
             </p>
             <div className="w-full flex gap-2">
               <a
@@ -500,7 +501,7 @@ const Sertif = () => {
               <div className="group-hover:bg-black/70 w-full h-full absolute z-40 transition-all duration-300"></div>
               <img
                 className="group-hover:scale-125 transition-all duration-500"
-                src={img7}
+                src={img10}
                 alt=""
               />
               <div className="absolute -bottom-full left-12 group-hover:bottom-24 transition-all duration-500 z-50">
@@ -549,7 +550,7 @@ const Sertif = () => {
               <div className="group-hover:bg-black/70 w-full h-full absolute z-40 transition-all duration-300"></div>
               <img
                 className="group-hover:scale-125 transition-all duration-500"
-                src={img8}
+                src={img11}
                 alt=""
               />
               <div className="absolute -bottom-full left-12 group-hover:bottom-24 transition-all duration-500 z-50">
