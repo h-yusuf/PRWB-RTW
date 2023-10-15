@@ -1,5 +1,6 @@
 import React from "react";
 // import {Link} from 'react-router-dom'
+import  { useEffect } from 'react';
 import img1 from "../../assets/portfolio-img1.png";
 import img2 from "../../assets/portfolio-img2.png";
 import img3 from "../../assets/portfolio-img3.png";
@@ -10,6 +11,26 @@ import { motion } from "framer-motion";
 import {fadeIn} from '../../variants'
 
 const Work = () => {
+  const resetScroll = () => {
+    window.scrollTo(0, 0);
+  };
+
+  // Menambahkan event listener saat komponen di-mount
+  useEffect(() => {
+    const links = document.querySelectorAll('.reset-scroll-link');
+
+    links.forEach(link => {
+      link.addEventListener('click', resetScroll);
+    });
+
+    // Membersihkan event listener saat komponen di-unmount
+    return () => {
+      links.forEach(link => {
+        link.removeEventListener('click', resetScroll);
+      });
+    };
+  }, []);
+
   const navigate = useNavigate();
   return (
     <section className="section" id="work">
@@ -34,7 +55,7 @@ const Work = () => {
                 confident that the quality of my work will continue to grow and
                 satisfy my clients in the future.
               </p>
-              <button className="btn btn-sm" onClick={() => navigate('/MyProject')}>View all project</button>
+              <button className="btn btn-sm reset-scroll-link" onClick={() => navigate('/MyProject')}>View all project</button>
             </div>
             {/* image */}
             <div className="group relative overflow-hidden border-2 border-white/50 rounded-xl">
