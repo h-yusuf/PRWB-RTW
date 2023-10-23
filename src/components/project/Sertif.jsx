@@ -11,6 +11,7 @@ import img8 from "../../assets/portfolio-img8.png";
 import img9 from "../../assets/portfolio-img9.png";
 import img10 from "../../assets/portfolio-img10.png";
 import img11 from "../../assets/portfolio-img11.png";
+import img12 from "../../assets/portfolio-img12.png";
 
 import { useNavigate } from "react-router-dom";
 
@@ -508,14 +509,14 @@ const Sertif = () => {
                 <span className="text-gradient">UI/UX Design</span>
               </div>
               <div className="absolute -bottom-full left-12 group-hover:bottom-14 transition-all duration-700 z-50">
-                <span className="text-white">Allodock App</span>
+                <span className="text-white">Wheater.sh</span>
               </div>
             </div>
           </a>
           <div class="p-5 flex flex-col  justify-between">
             <div>
               <h5 class="mb-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-white">
-              Allodock App To Confirm With Doctor
+              Rest API Website For Weather Tracking  
               </h5>
               <p class="mb-3 font-normal text-gray-700 dark:text-gray-400">
               application to make it easier for patients to confirm their health with doctors, can also control health in the application
@@ -599,37 +600,36 @@ const Sertif = () => {
               <div className="group-hover:bg-black/70 w-full h-full absolute z-40 transition-all duration-300"></div>
               <img
                 className="group-hover:scale-125 transition-all duration-500"
-                src={img1}
+                src={img12}
                 alt=""
               />
               <div className="absolute -bottom-full left-12 group-hover:bottom-24 transition-all duration-500 z-50">
                 <span className="text-gradient">UI/UX Design and Web</span>
               </div>
               <div className="absolute -bottom-full left-12 group-hover:bottom-14 transition-all duration-700 z-50">
-                <span className="text-white">Katalog Allodock app</span>
+                <span className="text-white">ShopApp</span>
               </div>
             </div>
           </a>
           <div class="p-5">
             <a href="#">
               <h5 class="mb-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-white">
-                Allodock Catalog Wireframe And Typography
+              website app builder with European look style
               </h5>
             </a>
             <p class="mb-3 font-normal text-gray-700 dark:text-gray-400">
-              typography of an allodock application design in the form of
-              wireframes, color grading, and user experience flow
+            a website application builder with the freedom of users to access and customize their own website.
             </p>
             <div className="w-full flex gap-2">
               <a
-                href="#"
+                href="https://www.figma.com/proto/twK4OWFyAutcPKzyKDYBxM/Web-Shop?type=design&node-id=1-2&t=G7DEOeFMzZPU3kYj-0&scaling=min-zoom&page-id=0%3A1&starting-point-node-id=1%3A2&show-proto-sidebar=1"
                 class="inline-flex items-center px-3 py-2 text-sm  gap-2 font-medium text-center text-white bg-blue-700 rounded-md hover:bg-blue-800 focus:ring-4 focus:outline-none focus:ring-blue-300 dark:bg-blue-600 dark:hover:bg-blue-700 dark:focus:ring-blue-800"
               >
                 Figma
                 <FaFigma />
               </a>
               <a
-                href="#"
+                onClick={() => WebnonData()}
                 class="inline-flex items-center px-3 py-2 text-sm  gap-2 font-medium text-center text-white bg-blue-700 rounded-md hover:bg-blue-800 focus:ring-4 focus:outline-none focus:ring-blue-300 dark:bg-blue-600 dark:hover:bg-blue-700 dark:focus:ring-blue-800"
               >
                 Website
