@@ -36,8 +36,7 @@ const About = () => {
           >
             <h2 className="h2 text-accent">About me.</h2>
             <h3 className="h3 mb-4">
-              I'm a freelance Frond-end Developer with over 1 years of
-              experience.
+            I am a UI design and Frond-end Developer with more than 1 year experience.
             </h3>
             <p className="mb-6">
               My portfolio shows the results of my work and experience while
