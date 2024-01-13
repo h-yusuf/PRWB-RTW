@@ -1,6 +1,5 @@
 import React from 'react';
 // components
-import Work from '../components/home/Work';
 import Sertif from '../components/project/Sertif';
 import Header2 from '../components/project/Header2';
 
