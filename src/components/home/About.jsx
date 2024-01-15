@@ -1,6 +1,6 @@
 import React from "react";
 import CountUp from "react-countup";
-import {FaReact,FaBootstrap,FaFigma} from 'react-icons/fa'
+import {FaReact,FaBootstrap,FaFigma,FaLaravel} from 'react-icons/fa'
 import { BiLogoTailwindCss} from "react-icons/bi";
 import { InView, useInView } from "react-intersection-observer";
 import { motion } from "framer-motion";
@@ -49,7 +49,7 @@ const About = () => {
             <div className="flex gap-6 lg:gap-x-10 mb-12">
               <div className="">
                 <div className="text-[40px] font-tertiary text-gradient mb-2 py-2">
-                  {inView ? <CountUp start={-2} end={1} duration={3} /> : null}+
+                  {inView ? <CountUp start={-2} end={2} duration={3} /> : null}+
                 </div>
                 <div className="font-primary text-sm tracking-[2px]">
                   Years of <br />
@@ -80,9 +80,10 @@ const About = () => {
                 My Skill :
               </a> */}
               <FaReact className='w-10 h-10 fill-blue-500 hover:fill-blue-400'/>
-              <FaBootstrap className='w-10 h-10 fill-purple-700 hover:fill-purple-600'/>
-              <FaFigma className='w-10 h-10 fill-pink-500 hover:fill-pink-400'/>
+              <FaLaravel className='w-10 h-10 fill-red-600 hover:fill-red-500 ' />
               <BiLogoTailwindCss className='w-10 h-10 fill-blue-600 hover:fill-blue-500 '/>
+              <FaBootstrap className='w-10 h-10 fill-purple-800 hover:fill-purple-700'/>
+              <FaFigma className='w-10 h-10 fill-red-600 hover:fill-red-500'/>
             </div>
           </motion.div>
         </div>

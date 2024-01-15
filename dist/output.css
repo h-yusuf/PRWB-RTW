@@ -718,6 +718,10 @@ body {
   bottom: -100%;
 }
 
+.bottom-0 {
+  bottom: 0px;
+}
+
 .bottom-4 {
   bottom: 1rem;
 }
@@ -726,28 +730,12 @@ body {
   left: 3rem;
 }
 
-.top-0 {
-  top: 0px;
-}
-
-.bottom-0 {
-  bottom: 0px;
-}
-
-.left-5 {
-  left: 1.25rem;
-}
-
-.left-24 {
-  left: 6rem;
-}
-
-.left-28 {
-  left: 7rem;
-}
-
 .left-32 {
   left: 8rem;
+}
+
+.top-0 {
+  top: 0px;
 }
 
 .z-40 {
@@ -758,24 +746,13 @@ body {
   z-index: 50;
 }
 
+.-m-1 {
+  margin: -0.25rem;
+}
+
 .mx-auto {
   margin-left: auto;
   margin-right: auto;
-}
-
-.my-auto {
-  margin-top: auto;
-  margin-bottom: auto;
-}
-
-.my-40 {
-  margin-top: 10rem;
-  margin-bottom: 10rem;
-}
-
-.my-24 {
-  margin-top: 6rem;
-  margin-bottom: 6rem;
 }
 
 .my-20 {
@@ -788,8 +765,16 @@ body {
   margin-bottom: 1rem;
 }
 
+.-mb-14 {
+  margin-bottom: -3.5rem;
+}
+
 .-mt-5 {
   margin-top: -1.25rem;
+}
+
+.-mt-\[150px\] {
+  margin-top: -150px;
 }
 
 .mb-10 {
@@ -828,6 +813,10 @@ body {
   margin-bottom: 2rem;
 }
 
+.ml-5 {
+  margin-left: 1.25rem;
+}
+
 .mr-4 {
   margin-right: 1rem;
 }
@@ -840,28 +829,8 @@ body {
   margin-top: 1rem;
 }
 
-.-mb-12 {
-  margin-bottom: -3rem;
-}
-
-.-mb-14 {
-  margin-bottom: -3.5rem;
-}
-
-.mt-\[150px\] {
-  margin-top: 150px;
-}
-
-.-mt-\[150px\] {
-  margin-top: -150px;
-}
-
-.-mt-\[50px\] {
-  margin-top: -50px;
-}
-
-.-mt-\[1\] {
-  margin-top: -1;
+.block {
+  display: block;
 }
 
 .flex {
@@ -884,8 +853,8 @@ body {
   height: 2.5rem;
 }
 
-.h-12 {
-  height: 3rem;
+.h-32 {
+  height: 8rem;
 }
 
 .h-6 {
@@ -894,6 +863,10 @@ body {
 
 .h-8 {
   height: 2rem;
+}
+
+.h-\[200px\] {
+  height: 200px;
 }
 
 .h-\[4000px\] {
@@ -924,32 +897,20 @@ body {
   height: 100vh;
 }
 
-.h-24 {
-  height: 6rem;
-}
-
-.h-28 {
-  height: 7rem;
-}
-
-.h-32 {
-  height: 8rem;
-}
-
-.h-auto {
-  height: auto;
-}
-
 .min-h-\[170px\] {
   min-height: 170px;
+}
+
+.w-1\/2 {
+  width: 50%;
 }
 
 .w-10 {
   width: 2.5rem;
 }
 
-.w-12 {
-  width: 3rem;
+.w-32 {
+  width: 8rem;
 }
 
 .w-6 {
@@ -960,28 +921,16 @@ body {
   width: 2rem;
 }
 
+.w-\[380px\] {
+  width: 380px;
+}
+
 .w-\[60px\] {
   width: 60px;
 }
 
 .w-full {
   width: 100%;
-}
-
-.w-3 {
-  width: 0.75rem;
-}
-
-.w-32 {
-  width: 8rem;
-}
-
-.w-28 {
-  width: 7rem;
-}
-
-.w-24 {
-  width: 6rem;
 }
 
 .max-w-\[455px\] {
@@ -1025,12 +974,20 @@ body {
   resize: none;
 }
 
+.list-disc {
+  list-style-type: disc;
+}
+
 .flex-row-reverse {
   flex-direction: row-reverse;
 }
 
 .flex-col {
   flex-direction: column;
+}
+
+.flex-wrap {
+  flex-wrap: wrap;
 }
 
 .items-center {
@@ -1135,6 +1092,11 @@ body {
   border-color: rgb(255 255 255 / 0.5);
 }
 
+.bg-black {
+  --tw-bg-opacity: 1;
+  background-color: rgb(0 0 0 / var(--tw-bg-opacity));
+}
+
 .bg-black\/20 {
   background-color: rgb(0 0 0 / 0.2);
 }
@@ -1151,6 +1113,10 @@ body {
 
 .bg-transparent {
   background-color: transparent;
+}
+
+.bg-opacity-20 {
+  --tw-bg-opacity: 0.2;
 }
 
 .bg-opacity-25 {
@@ -1201,16 +1167,24 @@ body {
   stroke-width: 1;
 }
 
+.object-cover {
+  object-fit: cover;
+}
+
+.object-center {
+  object-position: center;
+}
+
+.p-1 {
+  padding: 0.25rem;
+}
+
 .p-5 {
   padding: 1.25rem;
 }
 
 .p-6 {
   padding: 1.5rem;
-}
-
-.p-4 {
-  padding: 1rem;
 }
 
 .p-8 {
@@ -1378,6 +1352,11 @@ body {
   color: rgb(184 9 195 / var(--tw-text-opacity));
 }
 
+.text-gray-200 {
+  --tw-text-opacity: 1;
+  color: rgb(229 231 235 / var(--tw-text-opacity));
+}
+
 .text-gray-700 {
   --tw-text-opacity: 1;
   color: rgb(55 65 81 / var(--tw-text-opacity));
@@ -1395,6 +1374,10 @@ body {
 
 .text-white\/50 {
   color: rgb(255 255 255 / 0.5);
+}
+
+.opacity-60 {
+  opacity: 0.6;
 }
 
 .mix-blend-lighten {
@@ -1550,6 +1533,10 @@ body {
   fill: #9333ea;
 }
 
+.hover\:opacity-100:hover {
+  opacity: 1;
+}
+
 .focus\:border-accent:focus {
   --tw-border-opacity: 1;
   border-color: rgb(184 9 195 / var(--tw-border-opacity));
@@ -1614,6 +1601,16 @@ body {
   .dark\:focus\:ring-blue-800:focus {
     --tw-ring-opacity: 1;
     --tw-ring-color: rgb(30 64 175 / var(--tw-ring-opacity));
+  }
+}
+
+@media (min-width: 768px) {
+  .md\:-m-2 {
+    margin: -0.5rem;
+  }
+
+  .md\:p-2 {
+    padding: 0.5rem;
   }
 }
 

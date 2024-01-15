@@ -25,7 +25,7 @@ const Services = () => {
               I have experience in UI design and front end developer for more
               than 2 years.
             </h3>
-            <a href="https://pf-yusuf.netlify.app/Other">
+            <a href="/MyExperience">
               <button className="btn btn-lg">My Experience</button>
             </a>
           </motion.div>
@@ -48,11 +48,11 @@ const Services = () => {
                   url = "/UIUX"
               />
               <Skills
-                  name= "Development"
+                  name= "Web Developer"
                   description=
                   "I am a web developer with extensive experience in creating functional and responsive websites. With deep technical knowledge, I am committed to producing high-quality code and a good online experience for users."
                   link = "Learn more"
-                  url = "/UIUX"
+                  url = "/WebDev"
               />
               <Skills
                   name= "Digital Marketing"

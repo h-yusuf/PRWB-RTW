@@ -1,7 +1,7 @@
 import React from "react";
 import { useNavigate } from "react-router-dom";
 
-const Navbar = () => {
+const Navbar = (props) => {
   const navigate = useNavigate();
 
   return (
@@ -14,7 +14,7 @@ const Navbar = () => {
               href="#"
             >
               {/* <img className='h-[70px]' src={Logo} alt="" /> */}
-              My skill
+              { props.name }
             </a>
             <a href="">
               <button className="btn btn-sm" onClick={() => navigate("/")}>
