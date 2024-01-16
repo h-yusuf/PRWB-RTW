@@ -1,7 +1,8 @@
-import React from 'react';
+import { gsap } from "gsap";
+import CircleType from "circletype";
+import React, { useRef, useEffect } from 'react';
 import { BiHomeAlt, BiUser } from 'react-icons/bi';
 import { BsClipboardData, BsBriefcase, BsChatSquare } from 'react-icons/bs';
-
 import { Link } from 'react-scroll'
 
 const Nav = () => {
@@ -15,7 +16,9 @@ const Nav = () => {
           smooth={true}
           spy={true}
           offset={-200}
-          className='cursor-pointer w-[60px] h-[60px] flex items-center justify-center'>
+          className='cursor-pointer w-[60px] h-[60px] flex items-center justify-center cursor-hover-item'
+          data-cursor-text="GO HERE!" data-cursor-text-repeat="4"
+          >
             <BiHomeAlt />
           </Link>
 

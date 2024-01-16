@@ -829,6 +829,14 @@ body {
   margin-top: 1rem;
 }
 
+.mb-32 {
+  margin-bottom: 8rem;
+}
+
+.mt-3 {
+  margin-top: 0.75rem;
+}
+
 .block {
   display: block;
 }
@@ -1155,12 +1163,12 @@ body {
   fill: #2563eb;
 }
 
-.fill-pink-500 {
-  fill: #ec4899;
+.fill-purple-800 {
+  fill: #6b21a8;
 }
 
-.fill-purple-700 {
-  fill: #7e22ce;
+.fill-red-600 {
+  fill: #dc2626;
 }
 
 .stroke-1 {
@@ -1189,6 +1197,10 @@ body {
 
 .p-8 {
   padding: 2rem;
+}
+
+.p-20 {
+  padding: 5rem;
 }
 
 .px-3 {
@@ -1229,6 +1241,31 @@ body {
 .py-8 {
   padding-top: 2rem;
   padding-bottom: 2rem;
+}
+
+.py-14 {
+  padding-top: 3.5rem;
+  padding-bottom: 3.5rem;
+}
+
+.px-12 {
+  padding-left: 3rem;
+  padding-right: 3rem;
+}
+
+.py-20 {
+  padding-top: 5rem;
+  padding-bottom: 5rem;
+}
+
+.px-1 {
+  padding-left: 0.25rem;
+  padding-right: 0.25rem;
+}
+
+.px-14 {
+  padding-left: 3.5rem;
+  padding-right: 3.5rem;
 }
 
 .pb-24 {
@@ -1374,6 +1411,10 @@ body {
 
 .text-white\/50 {
   color: rgb(255 255 255 / 0.5);
+}
+
+.underline {
+  text-decoration-line: underline;
 }
 
 .opacity-60 {
@@ -1525,12 +1566,12 @@ body {
   fill: #3b82f6;
 }
 
-.hover\:fill-pink-400:hover {
-  fill: #f472b6;
+.hover\:fill-purple-700:hover {
+  fill: #7e22ce;
 }
 
-.hover\:fill-purple-600:hover {
-  fill: #9333ea;
+.hover\:fill-red-500:hover {
+  fill: #ef4444;
 }
 
 .hover\:opacity-100:hover {

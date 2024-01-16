@@ -1,17 +1,16 @@
-import React from "react";
+import React, { useRef, useEffect } from 'react';
 import Navbar from "../components/partials/navbar";
 import bgimg from "../assets/skils/UI UX.jpg";
 import bgblue from "../assets/bg-blue.png";
 
 const WebDev = () => {
-
-    return(
-        <>
-        <div className="bg-site bg-no-repeat bg-cover overflow-hidden">
-        <Navbar 
-        name="MySkill"
+  return (
+    <>
+      <div className="bg-site bg-no-repeat bg-cover overflow-hidden">
+        <Navbar
+          name="MySkill"
         />
-                <div className="relative -mt-[150px] top-0 w-full">
+        <div className="relative -mt-[150px] top-0 w-full">
           <div className="w-full ">
             <img className="w-full top-0" src={bgimg} alt="" />
             <img
@@ -88,11 +87,10 @@ const WebDev = () => {
             </div>
             {/* <img className="w-full top-0" src={bgimg} alt="" /> */}
           </div>
-
         </div>
 
-        </div>
-        </>
-    )
+      </div>
+    </>
+  )
 }
 export default WebDev;
