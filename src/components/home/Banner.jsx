@@ -51,7 +51,7 @@ const Banner = () => {
              whileInView={'show'}
              viewport={{once: false, amount: 0.7}}
             className="flex max-w-max gap-6 items-center mb-12 mx-auto lg:mx-0">
-              <a href="https://pf-yusuf.netlify.app/contact">
+              <a href="/Contact">
             <button className="btn btn-lg">Contact me</button>
               </a>
             <a className='text-gradient btn-link' href="#">My Portofolio</a>
@@ -62,13 +62,13 @@ const Banner = () => {
              whileInView={'show'}
              viewport={{once: false, amount: 0.7}}
             className="flex gap-8 items-center justify-center lg:justify-start">
-              <a href="">
+              <a href="https://www.youtube.com/@sacyus_f" target="_blank" rel="noopener noreferrer">
               <FaYoutube className='w-6 h-6'/>
               </a>
-              <a href="https://github.com/h-yusuf">
+              <a href="https://github.com/h-yusuf" target="_blank" rel="noopener noreferrer">
               <FaGithub className='w-6 h-6'/>
               </a>
-              <a href="https://www.linkedin.com/in/yusuf212/">
+              <a href="https://www.linkedin.com/in/yusuf212/" target="_blank" rel="noopener noreferrer">
               <FaLinkedin className='w-6 h-6'/>
               </a>
             </motion.div>
