@@ -9,6 +9,8 @@ import AnimatedCursor from "react-animated-cursor"
 // import { gsap } from "gsap";
 // import CircleType from "circletype";
 import ContactUs from './pages/ContactUS';
+import Example from './animation/example';
+import Progres from './nearyou/progres';
 
 // components
 
@@ -24,6 +26,8 @@ const App = () => {
           <Route path='/MyProject' element={<MyProject />} />
           <Route path='/UiUX' element={<UIUXskils />} />
           <Route path='/WebDev' element={<WebDev />} />
+          <Route path='/example' element={<Example />} />
+          <Route path='/progres' element={<Progres />} />
         </Routes>
       </Router>
       <AnimatedCursor
