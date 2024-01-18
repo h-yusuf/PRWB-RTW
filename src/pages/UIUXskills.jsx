@@ -15,7 +15,7 @@ const UIUXskils = () => {
             <img
               src={bgblue}
               alt=""
-              className="rounded-full w-32 h-32 absolute bottom-0 left-32 -mb-14"
+              className="rounded-full w-32 h-32 absolute bottom-0 left-12 lg:left-32 -mb-14"
             />
           </div>
         </div>
@@ -34,7 +34,7 @@ const UIUXskils = () => {
               design challenges innovatively, ensuring the delivery of impactful and
               user-centric digital experiences.
             </p>
-            <div className="flex gap-12 my-4">
+            <div className="lg:flex grid gap-12 my-4">
               <div className="flex flex-col gap-6">
                 <div className="">
                   <a className="text-gradient btn-link">Deliverables</a>

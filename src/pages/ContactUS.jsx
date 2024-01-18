@@ -22,14 +22,14 @@ const ContactUs = () => {
 
     return (
         <>
-            <div className='bg-site bg-no-repeat bg-cover overflow-hidden h-screen'>
+            <div className='bg-site bg-no-repeat bg-cover overflow-hidden lg:h-screen'>
                 <Navbar
                     name="Contact"
                 />
                 <div className="container mx-auto my-4 mb-32 grid gap-8">
                     <div className=" bg-gray-800 bg-opacity-25 border border-gray-700 rounded-lg shadow p-20 ">
                         <span className="mb-8"><a className="text-gradient btn-link text-2xl ">MyContact</a></span>
-                        <div className="flex gap-12 mt-4">
+                        <div className="lg:flex grid gap-12 mt-4">
                             <div className="flex-1 flex-col gap-4">
                                 <p className="text-justify text-xl">
                                     If you are interested in working together or providing feedback and suggestions, please feel free to contact me. I am ready to learn and grow with you through amazing web/app design.

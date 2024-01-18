@@ -5,19 +5,19 @@ import bgblue from "../assets/bg-blue.png";
 
 const WebDev = () => {
 
-    return(
-        <>
-        <div className="bg-site bg-no-repeat bg-cover overflow-hidden">
-        <Navbar 
-        name="MySkill"
+  return (
+    <>
+      <div className="bg-site bg-no-repeat bg-cover overflow-hidden">
+        <Navbar
+          name="MySkill"
         />
-                <div className="relative -mt-[150px] top-0 w-full">
+        <div className="relative -mt-[150px] top-0 w-full">
           <div className="w-full ">
             <img className="w-full top-0" src={bgimg} alt="" />
             <img
               src={bgblue}
               alt=""
-              className="rounded-full w-32 h-32 absolute bottom-0 left-32 -mb-14"
+              className="rounded-full w-32 h-32 absolute bottom-0 left-12 lg:left-32 -mb-14"
             />
           </div>
         </div>
@@ -36,7 +36,7 @@ const WebDev = () => {
               design challenges innovatively, ensuring the delivery of impactful and
               user-centric digital experiences.
             </p>
-            <div className="flex gap-12 my-4">
+            <div className="lg:flex grid gap-12 my-4">
               <div className="flex flex-col gap-6">
                 <div className="">
                   <a className="text-gradient btn-link">Deliverables</a>
@@ -91,8 +91,8 @@ const WebDev = () => {
 
         </div>
 
-        </div>
-        </>
-    )
+      </div>
+    </>
+  )
 }
 export default WebDev;
