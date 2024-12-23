@@ -33,11 +33,11 @@ const Services = () => {
             viewport={{ once: false, amount: 0.3 }}
             className="flex-1 lg:bg-services lg:bg-bottom bg-no-repeat mix-blend-lighten mb-12 lg:mb-0"
           >
-            <h2 className="h2 text-accent mb-6">What I Do.</h2>
+            <h2 className="h2 text-accent mb-6">What I Do</h2>
             <h3 className="h3 text-white mb-16 max-w-[455px]">
-              I have experience in UI design and front end developer for more
-              than 2 years.
+              I create intuitive UI/UX designs and responsive front-end solutions with 2+ years of experience.
             </h3>
+
             <a href="/MyExperience">
               {/* <button className="btn btn-lg">My Experience</button> */}
 

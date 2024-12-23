@@ -1,7 +1,7 @@
 import React from "react";
 import CountUp from "react-countup";
-import {FaReact,FaBootstrap,FaFigma,FaLaravel} from 'react-icons/fa'
-import { BiLogoTailwindCss} from "react-icons/bi";
+import { FaReact, FaBootstrap, FaFigma, FaLaravel } from 'react-icons/fa'
+import { BiLogoTailwindCss } from "react-icons/bi";
 import { InView, useInView } from "react-intersection-observer";
 import { motion } from "framer-motion";
 import { fadeIn } from "../../variants";
@@ -26,7 +26,7 @@ const About = () => {
           ></motion.div>
 
           {/* text */}
-          
+
           <motion.div
             variants={fadeIn("left", 0.2)}
             initial="hidden"
@@ -34,15 +34,15 @@ const About = () => {
             viewport={{ once: false, amount: 0.3 }}
             className="flex-1"
           >
-            <h2 className="h2 text-accent">About me.</h2>
+            <h2 className="h2 text-accent">About Me</h2>
             <h3 className="h3 mb-4">
-            I am a UI design and Frond-end Developer with more than 1 year experience.
+              UI/UX Designer, Front-end Developer, and System Integration Specialist.
             </h3>
             <p className="mb-6">
-              My portfolio shows the results of my work and experience while
-              studying and participating in several small projects. I am
-              confident that the quality of my work will continue to grow and
-              satisfy my clients in the future.
+              I craft user-focused digital experiences with expertise in Laravel, REST APIs, and Agile development. Dedicated to innovation, I thrive in collaborative teams and consistently deliver high-quality results on time.
+            </p>
+            <p className="mb-6">
+              Let’s connect and create impactful digital solutions together!
             </p>
 
             {/* stats */}
@@ -79,11 +79,11 @@ const About = () => {
               {/* <a className="text-gradient btn-link" href="#">
                 My Skill :
               </a> */}
-              <FaReact className='w-10 h-10 fill-blue-500 hover:fill-blue-400'/>
+              <FaReact className='w-10 h-10 fill-blue-500 hover:fill-blue-400' />
               <FaLaravel className='w-10 h-10 fill-red-600 hover:fill-red-500 ' />
-              <BiLogoTailwindCss className='w-10 h-10 fill-blue-600 hover:fill-blue-500 '/>
-              <FaBootstrap className='w-10 h-10 fill-purple-800 hover:fill-purple-700'/>
-              <FaFigma className='w-10 h-10 fill-red-600 hover:fill-red-500'/>
+              <BiLogoTailwindCss className='w-10 h-10 fill-blue-600 hover:fill-blue-500 ' />
+              <FaBootstrap className='w-10 h-10 fill-purple-800 hover:fill-purple-700' />
+              <FaFigma className='w-10 h-10 fill-red-600 hover:fill-red-500' />
             </div>
           </motion.div>
         </div>

@@ -55,12 +55,13 @@ const Banner = () => {
             </motion.div>
             <motion.p
               variants={fadeIn('up', 0.5)}
-              initial='hidden'
-              whileInView={'show'}
+              initial="hidden"
+              whileInView="show"
               viewport={{ once: false, amount: 0.7 }}
-              className='mb-8 max-w-lg mx-auto lg:mx-0 text-xl'>
-              I am a Design student and frond end developer with a passion and interest in creating design solutions that make users' lives easier.
+              className="mb-8 max-w-lg mx-auto lg:mx-0 text-xl">
+              I am a Design student and Front-end Developer passionate about crafting innovative and user-focused design solutions that enhance digital experiences.
             </motion.p>
+
             <motion.div
               variants={fadeIn('up', 0.6)}
               initial='hidden'
@@ -131,7 +132,7 @@ const Banner = () => {
               <a href="https://github.com/h-yusuf" target="_blank" rel="noopener noreferrer">
                 <FaGithub className='w-6 h-6' />
               </a>
-              <a href="https://www.linkedin.com/in/yusuf212/" target="_blank" rel="noopener noreferrer">
+              <a href="https://www.linkedin.com/in/h-yusuf313/" target="_blank" rel="noopener noreferrer">
                 <FaLinkedin className='w-6 h-6' />
               </a>
             </motion.div>

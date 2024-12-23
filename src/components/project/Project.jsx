@@ -52,10 +52,10 @@ const Project = () => {
           </a>
           <div class="p-5 flex flex-col  justify-between">
             <div>
-              <h5 class="mb-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-white">
+              <h5 class="mb-2 text-2xl font-bold tracking-tight text-gray-300">
                 Personal Portfolio With Modern Typography
               </h5>
-              <p class="mb-3 font-normal text-gray-700 dark:text-gray-400">
+              <p class="mb-3 font-normal text-gray-400">
                 a portfolio website design built using figma with modern
                 typography and color grading that has been adjusted.
               </p>
@@ -102,11 +102,11 @@ const Project = () => {
           </a>
           <div class="p-5">
             <a href="#">
-              <h5 class="mb-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-white">
+              <h5 class="mb-2 text-2xl font-bold tracking-tight text-gray-300">
                 Catalog Website Featuring Monetrack Application
               </h5>
             </a>
-            <p class="mb-3 font-normal text-gray-700 dark:text-gray-400">
+            <p class="mb-3 font-normal text-gray-400">
               website to advertise the monetrack application which is a money
               income and expenditure tracking application
             </p>
@@ -152,11 +152,11 @@ const Project = () => {
           </a>
           <div class="p-5">
             <a href="#">
-              <h5 class="mb-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-white">
+              <h5 class="mb-2 text-2xl font-bold tracking-tight text-gray-300">
                 Allodock Catalog Wireframe And Typography
               </h5>
             </a>
-            <p class="mb-3 font-normal text-gray-700 dark:text-gray-400">
+            <p class="mb-3 font-normal text-gray-400">
               typography of an allodock application design in the form of
               wireframes, color grading, and user experience flow
             </p>
@@ -208,10 +208,10 @@ const Project = () => {
           </a>
           <div class="p-5 flex flex-col  justify-between">
             <div>
-              <h5 class="mb-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-white">
+              <h5 class="mb-2 text-2xl font-bold tracking-tight text-gray-300">
                 Yogyakarta Tourism And Travel Website
               </h5>
-              <p class="mb-3 font-normal text-gray-700 dark:text-gray-400">
+              <p class="mb-3 font-normal text-gray-400">
                 a portfolio website design built using figma with modern
                 typography and color grading that has been adjusted.
               </p>
@@ -258,11 +258,11 @@ const Project = () => {
           </a>
           <div class="p-5">
             <a href="#">
-              <h5 class="mb-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-white">
+              <h5 class="mb-2 text-2xl font-bold tracking-tight text-gray-300">
                 Website Chartsy Traking From Funders
               </h5>
             </a>
-            <p class="mb-3 font-normal text-gray-700 dark:text-gray-400">
+            <p class="mb-3 font-normal text-gray-400">
               chartsy website for tracking income and expenditure from funders and visualized in the form of charts
             </p>
             <div className="w-full flex gap-2">
@@ -307,11 +307,11 @@ const Project = () => {
           </a>
           <div class="p-5">
             <a href="#">
-              <h5 class="mb-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-white">
+              <h5 class="mb-2 text-2xl font-bold tracking-tight text-gray-300">
                 AdaJasa Website Provides a wide range of services
               </h5>
             </a>
-            <p class="mb-3 font-normal text-gray-700 dark:text-gray-400">
+            <p class="mb-3 font-normal text-gray-400">
               AdaJasa Aims to gather service providers as well as bring together service providers and service seekers.
             </p>
             <div className="w-full flex gap-2">
@@ -362,10 +362,10 @@ const Project = () => {
           </a>
           <div class="p-5 flex flex-col  justify-between">
             <div>
-              <h5 class="mb-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-white">
+              <h5 class="mb-2 text-2xl font-bold tracking-tight text-gray-300">
                 Allodock App To Confirm With Doctor
               </h5>
-              <p class="mb-3 font-normal text-gray-700 dark:text-gray-400">
+              <p class="mb-3 font-normal text-gray-400">
                 application to make it easier for patients to confirm their health with doctors, can also control health in the application
               </p>
             </div>
@@ -411,11 +411,11 @@ const Project = () => {
           </a>
           <div class="p-5">
             <a href="#">
-              <h5 class="mb-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-white">
+              <h5 class="mb-2 text-2xl font-bold tracking-tight text-gray-300">
                 Application To Control The Entry And Exit Of Money
               </h5>
             </a>
-            <p class="mb-3 font-normal text-gray-700 dark:text-gray-400">
+            <p class="mb-3 font-normal text-gray-400">
               application website with the aim of processing expenses and income both used by individuals and a company.
             </p>
             <div className="w-full flex gap-2">
@@ -460,11 +460,11 @@ const Project = () => {
           </a>
           <div class="p-5">
             <a href="#">
-              <h5 class="mb-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-white">
+              <h5 class="mb-2 text-2xl font-bold tracking-tight text-gray-300">
                 AdaJasa app Provides a wide range of services
               </h5>
             </a>
-            <p class="mb-3 font-normal text-gray-700 dark:text-gray-400">
+            <p class="mb-3 font-normal text-gray-400">
               AdaJasa App Aims to gather service providers as well as bring together service providers and service seekers.
             </p>
             <div className="w-full flex gap-2">
@@ -515,10 +515,10 @@ const Project = () => {
           </a>
           <div class="p-5 flex flex-col  justify-between">
             <div>
-              <h5 class="mb-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-white">
+              <h5 class="mb-2 text-2xl font-bold tracking-tight text-gray-300">
                 Rest API Website For Weather Tracking
               </h5>
-              <p class="mb-3 font-normal text-gray-700 dark:text-gray-400">
+              <p class="mb-3 font-normal text-gray-400">
                 application to make it easier for patients to confirm their health with doctors, can also control health in the application
               </p>
             </div>
@@ -564,11 +564,11 @@ const Project = () => {
           </a>
           <div class="p-5">
             <a href="#">
-              <h5 class="mb-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-white">
+              <h5 class="mb-2 text-2xl font-bold tracking-tight text-gray-300">
                 Application To Control The Entry And Exit Of Money
               </h5>
             </a>
-            <p class="mb-3 font-normal text-gray-700 dark:text-gray-400">
+            <p class="mb-3 font-normal text-gray-400">
               application website with the aim of processing expenses and income both used by individuals and a company.
             </p>
             <div className="w-full flex gap-2">
@@ -613,11 +613,11 @@ const Project = () => {
           </a>
           <div class="p-5">
             <a href="#">
-              <h5 class="mb-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-white">
+              <h5 class="mb-2 text-2xl font-bold tracking-tight text-gray-300">
                 website app builder with European look style
               </h5>
             </a>
-            <p class="mb-3 font-normal text-gray-700 dark:text-gray-400">
+            <p class="mb-3 font-normal text-gray-400">
               a website application builder with the freedom of users to access and customize their own website.
             </p>
             <div className="w-full flex gap-2">
