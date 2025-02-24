@@ -1,6 +1,6 @@
 import React from "react";
 import CountUp from "react-countup";
-import { FaReact, FaBootstrap, FaFigma, FaLaravel } from 'react-icons/fa'
+import { FaReact, FaBootstrap, FaFigma, FaLaravel, FaLinux } from 'react-icons/fa'
 import { BiLogoTailwindCss } from "react-icons/bi";
 import { InView, useInView } from "react-intersection-observer";
 import { motion } from "framer-motion";
@@ -36,7 +36,7 @@ const About = () => {
           >
             <h2 className="h2 text-accent">About Me</h2>
             <h3 className="h3 mb-4">
-              UI/UX Designer, Front-end Developer, and System Integration Specialist.
+              UI Designer, Web Developer, and System Integration Specialist.
             </h3>
             <p className="mb-6">
               I craft user-focused digital experiences with expertise in Laravel, REST APIs, and Agile development. Dedicated to innovation, I thrive in collaborative teams and consistently deliver high-quality results on time.
@@ -84,6 +84,7 @@ const About = () => {
               <BiLogoTailwindCss className='w-10 h-10 fill-blue-600 hover:fill-blue-500 ' />
               <FaBootstrap className='w-10 h-10 fill-purple-800 hover:fill-purple-700' />
               <FaFigma className='w-10 h-10 fill-red-600 hover:fill-red-500' />
+              <FaLinux className='w-10 h-10 fill-yellow-800 hover:fill-yellow-700' />
             </div>
           </motion.div>
         </div>

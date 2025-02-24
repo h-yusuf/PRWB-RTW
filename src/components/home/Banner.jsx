@@ -32,19 +32,19 @@ const Banner = () => {
               initial='hidden'
               whileInView={'show'}
               viewport={{ once: false, amount: 0.7 }}
-              className='text-[55px] font-bold leading-[0.8] lg:text-[70px] mb-4'>Muhammad yusuf</motion.h1>
+              className='text-[55px] font-bold leading-[0.8] lg:text-[70px] mb-4'>Hafidh Muhammad yusuf</motion.h1>
             <motion.div
               variants={fadeIn('up', 0.4)}
               initial='hidden'
               whileInView={'show'}
               viewport={{ once: false, amount: 0.7 }}
-              className='mb-6 text-[36px] lg:text-[40px] font-secondary font-semibold uppercase leading-[1]'>
+              className='mb-6 text-[32px] lg:text-[32px] font-secondary font-semibold uppercase leading-[1]'>
               <span className='mr-4 text-white'>I am a</span>
               <TypeAnimation
                 sequence={[
-                  'Developer',
+                  'Web Developer',
                   2000,
-                  'Designer',
+                  'UI Designer',
                   2000,
                 ]}
                 speed={50}
@@ -59,7 +59,7 @@ const Banner = () => {
               whileInView="show"
               viewport={{ once: false, amount: 0.7 }}
               className="mb-8 max-w-lg mx-auto lg:mx-0 text-xl">
-              I am a Design student and Front-end Developer passionate about crafting innovative and user-focused design solutions that enhance digital experiences.
+              I am a UI Designer and Web Developer who creates intuitive, aesthetic, and functional digital solutions for user-friendly and impactful experiences.
             </motion.p>
 
             <motion.div

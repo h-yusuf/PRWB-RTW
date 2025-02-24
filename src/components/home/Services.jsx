@@ -35,7 +35,7 @@ const Services = () => {
           >
             <h2 className="h2 text-accent mb-6">What I Do</h2>
             <h3 className="h3 text-white mb-16 max-w-[455px]">
-              I create intuitive UI/UX designs and responsive front-end solutions with 2+ years of experience.
+            I craft intuitive UI designs and develop responsive web solutions with over 2 years of experience as a UI Designer and Web Developer.
             </h3>
 
             <a href="/MyExperience">
@@ -114,21 +114,21 @@ const Services = () => {
                 description=
                 "I am a web developer with extensive experience in creating functional and responsive websites. With deep technical knowledge, I am committed to producing high-quality code and a good online experience for users."
                 link="Learn more"
-                url="/WebDev"
+                url="#"
               />
               <Skills
                 name="Digital Marketing"
                 description=
                 "I have the ability to design comprehensive digital marketing strategies, including content planning, social media, online advertising, and email marketing."
                 link="Learn more"
-                url="/UIUX"
+                url="#"
               />
               <Skills
                 name="Creator Video"
                 description=
                 "I have the ability to design, direct, and edit videos with great skill. I can create stunning content, from brand promotional videos to entertaining personal vlogs."
                 link="Learn more"
-                url="/UIUX"
+                url="#"
               />
 
             </div>
